@@ -25,7 +25,7 @@ def link(id):
         </head>
         <body>
             <p>Redirecting...</p>
-            <p>Powered by <a href="https://github.com/vodkarm/UShorten/>UShorten</a></p>
+            <p>Powered by <a href="https://github.com/vodkarm/UShorten/>UShorten</a>UShorten</p>
         </body>
         </html>
         """ if db.get(id) else jsonify({"success": False, "error": "Link not found."}), 400
