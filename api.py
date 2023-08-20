@@ -1,7 +1,6 @@
 import string, random, json
 from flask import Flask, redirect, jsonify, request
 from flask_cors import CORS
-from urllib.parse import unquote
 
 app = Flask(__name__)
 CORS(app)
